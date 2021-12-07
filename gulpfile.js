@@ -6,10 +6,10 @@ let fs = require('fs');
 let path = {
     build: {
         html: `${projectFolder}/`,
-        css: `${projectFolder}/assets/css/`,
-        js: `${projectFolder}/assets/js/`,
-        img: `${projectFolder}/assets/images/`,
-        fonts: `${projectFolder}/assets/fonts/`
+        css: `${projectFolder}/assets/presentation/css/`,
+        js: `${projectFolder}/assets/presentation/js/`,
+        img: `${projectFolder}/assets/presentation/images/`,
+        fonts: `${projectFolder}/assets/presentation/fonts/`
     },
     src: {
         html: [`${sourceFolder}/*.html`, `!${sourceFolder}/_*.html`],

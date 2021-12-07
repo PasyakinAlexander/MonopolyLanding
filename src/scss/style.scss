@@ -52,18 +52,21 @@ header{
         align-items: center;
         justify-content: space-between;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 }
 
 .description{
     position: relative;
-    padding: 70px 0;
+    padding-top: 90px;
+    padding-bottom: 130px;
 
     h2{
         font-size: 32px;
         font-weight: 400;
         text-transform: uppercase;
+        margin: 0;
+        line-height: 50px;
     }
 
     h1{
@@ -72,7 +75,10 @@ header{
         font-weight: 800;
         line-height: 100px;
         position: relative;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
+        color: #252525;
+        margin-top: 60px;
+        margin-bottom: 80px;
 
         span{
             font-size: 68px;
@@ -104,7 +110,8 @@ header{
 
 .statistics{
     background: #f7f7ee;
-    padding-bottom: 30px;
+    padding-bottom: 55px;
+    padding-top: 80px;
     
     .container{
         display: flex;
@@ -114,9 +121,11 @@ header{
 
     h2{
         font-size: 84px;
-        font-weight: 700;
+        font-weight: 800;
         text-transform: uppercase;
         margin-bottom: 0;
+        color: #252525;
+        margin: 0;
     }
 
     h4{
@@ -124,17 +133,23 @@ header{
         font-weight: 700;
         text-align: center;
         width: 68%;
+        margin: 0;
+        margin-top: 30px;
     }
 
     .cards{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin-top: 50px;
     }
 
     .card{
         width: 330px;
         margin: 30px;
+        height: fit-content;
+        margin-bottom: 45px;
+        margin-top: 45px;
 
         h3{
             margin: 0;
@@ -152,20 +167,24 @@ header{
 }
 
 .prizes{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 90px;
 
     h2{
         font-size: 84px;
-        font-weight: 700;
+        font-weight: 800;
         text-transform: uppercase;
         text-align: center;
         margin-bottom: 0;
+        color: #252525;
+        margin: 0;
     }
 
     .main-prize{
         background: #0000ff;
         color: white;
         padding: 10px 0;
+        margin-top: 30px;
 
         h3{
             font-size: 42px;
@@ -187,6 +206,7 @@ header{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-top: 60px;
     }
 
     .prizes-list{
@@ -195,7 +215,9 @@ header{
             font-weight: 700;
             text-transform: uppercase;
             position: relative;
-            padding-bottom: 15px;
+            padding-bottom: 25px;
+            margin: 0;
+            margin-bottom: 50px;
         }
 
         h3::before{
@@ -213,7 +235,7 @@ header{
             li{
                 font-size: 24px;
                 vertical-align: middle;
-                margin-top: 20px;
+                margin-top: 30px;
                 position: relative;
             }
 
@@ -233,7 +255,9 @@ header{
         text-transform: uppercase;
         font-weight: 700;
         position: relative;
-        padding-bottom: 15px;
+        padding-bottom: 30px;
+        margin-top: 70px;
+        margin-bottom: 0;
     }
 
     .sponsors::before{
@@ -250,8 +274,8 @@ header{
 
 .stages{
     background: #f8f8f3;
-    padding-top: 50px;
-    min-height: 1000px;
+    padding-top: 90px;
+    min-height: 1100px;
 
     .mobile{
         display: none;
@@ -263,6 +287,7 @@ header{
         text-align: center;
         text-transform: uppercase;
         margin: 0;
+        color: #252525;
     }
 
     .descr{
@@ -270,6 +295,7 @@ header{
         font-weight: 600;
         position: relative;
         z-index: 10;
+        margin-top: 90px;
     }
 
     .ladder{
@@ -331,7 +357,7 @@ header{
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 90px;
     background-position: center;
     padding-bottom: 150px;
 
@@ -358,7 +384,8 @@ header{
     }
 
     .descr{
-        margin-top: 50px;
+        margin-top: 90px;
+
         h3{
             font-size: 42px;
             text-transform: none;
@@ -409,19 +436,19 @@ header{
         }
 
         .point:nth-child(2){
-            margin-top: 20px;
+            margin-top: 15px;
             margin-right: 50px;
         }
 
         .point:nth-child(3){
-            margin-top: 20px;
+            margin-top: 15px;
             margin-right: 100px;
         }
     }
 }
 
 .why-playing{
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 50px;
 
     h2, h3{
@@ -430,6 +457,7 @@ header{
         text-transform: uppercase;
         margin: 0;
         text-align: center;
+        color: #252525;
     }
 
     h3{
@@ -440,10 +468,11 @@ header{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-top: 40px;
     }
 
     .block{
-        margin-top: 50px;
+        margin-top: 80px;
 
         h4{
             color: #0000ff;
@@ -470,7 +499,7 @@ header{
 }
 
 .participants{
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 50px;
 
     h2{
@@ -479,7 +508,7 @@ header{
         text-transform: uppercase;
         text-align: right;
         margin: 0;
-
+        color: #252525;
     }
 
     h3{
@@ -490,6 +519,7 @@ header{
         margin: 0;
         width: 400px;
         margin-left: auto;
+        margin-top: 50px;
     }
 
     .cards{
@@ -506,6 +536,7 @@ header{
                 font-weight: 700;
                 text-transform: uppercase;
                 margin: 0;
+                color: #252525;
             }
         }
     }
@@ -515,6 +546,7 @@ header{
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
+    padding-top: 100px;
 
     h2{
         font-size: 84px;
@@ -528,11 +560,11 @@ header{
         list-style: none;
         margin-left: auto;
         width: fit-content;
-        margin-top: 100px;
+        margin-top: 70px;
 
         li{
             font-size: 24px;
-            margin-top: 20px;
+            margin-top: 30px;
             font-weight: 800;
             position: relative;
             line-height: 30px;
@@ -551,7 +583,7 @@ header{
 .region-agent{
     background: #0000ff;
     color: #0000ff;
-    padding-top: 50px;
+    padding-top: 70px;
 
     h2{
         font-size: 60px;
@@ -670,7 +702,7 @@ header{
     .networking{
         display: flex;
         justify-content: space-between;
-        margin-top: 100px;
+        margin-top: 130px;
 
         img{
             margin-right: 350px;
@@ -721,8 +753,8 @@ header{
 
 .scaling{
     background: #f7f7ee;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     .container{
         display: flex;
@@ -780,7 +812,7 @@ header{
 }
 
 .income{
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 50px;
 
     .container{
@@ -870,7 +902,7 @@ header{
 }
 
 .deligate{
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 50px;
 
     h2{
@@ -881,6 +913,7 @@ header{
         width: 600px;
         margin-left: auto;
         position: relative;
+        margin-top: 0;
     }
 
     h2:before{

@@ -1,11 +1,11 @@
 include modal.pug
 
 mixin IncludeCSS(filename)
-    - let path = `assets/css/${filename}`
+    - let path = `assets/presentation/css/${filename}`
     link(rel="stylesheet", href=path)
 
 mixin IncludeJS(filename)
-    - let path = `assets/js/${filename}`
+    - let path = `assets/presentation/js/${filename}`
     script(src=path)
 
 mixin InputRadio(name, label)

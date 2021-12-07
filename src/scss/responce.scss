@@ -4,6 +4,102 @@
     {
         max-width: 1024px;
     }
+
+    .description{
+        img{
+            z-index: -1;
+            width: 700px;
+        }
+    }
+
+    .prizes{
+        .prizes-list{
+            width: 48%;
+        }
+    }
+
+    .stages{
+        .ladder{
+            .super-final{
+                right: 50px;
+            }
+
+            .region-final{
+                right: 0px;
+            }
+
+            .qualification{
+                right: 140px;
+            }
+        }
+    }
+
+    .participants{
+        img{
+            width: 300px;
+        }
+    }
+
+    .region-agent{
+        .regions{
+            padding-left: 200px;
+        }
+    }
+
+    .opportunities{
+        .brand{
+            img{
+                margin-left: 88px;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding-right: 88px;
+                }
+
+                h2{
+                    padding-left: 254px;
+                    font-size: 40px;
+                }
+            }
+        }
+
+        .networking{
+            img{
+                margin-right: 0;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding-left: 88px;
+                }
+
+                h2{
+                    padding-right: 50px;
+                    font-size: 40px;
+                }
+            }
+            
+            .image{
+                .caption{
+                    padding-right: 88px;
+                }
+            }
+        }
+    }
+
+    .scaling{
+        img{
+            width: 400px;
+        }
+    }
+
+    .deligate{
+        h2:before{
+            right: -103px;
+            width: 750px;
+        }
+    }
 }
 
 @media(max-width: 1024px)
@@ -11,6 +107,98 @@
     .container
     {
         max-width: 992px;
+    }
+
+    .stages{
+        .ladder{
+            .super-final{
+                right: 0px;
+            }
+
+            .region-final{
+                right: -30px;
+            }
+
+            .qualification{
+                right: 100px;
+            }
+        }
+    }
+
+    .region-agent{
+        .regions{
+            padding-left: 235px;
+        }
+    }
+
+    .opportunities{
+        .brand{
+            img{
+                margin-left: 16px;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding-right: 16px;
+                }
+
+                h2{
+                    padding-left: 200px;
+                }
+
+                p{
+                    padding-left: 20px;
+                }
+            }
+        }
+
+        .networking{
+            img{
+                margin-right: 0;
+                width: 700px;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding-left: 16px;
+                }
+
+                h2{
+                    padding-right: 0px;
+                    font-size: 40px;
+                }
+            }
+
+            .image{
+                .caption{
+                    padding-right: 16px;
+                }
+            }
+        }
+    }
+
+    .deligate{
+        h2:before{
+            right: -31px;
+            width: 750px;
+        }
+    }
+
+    .more{
+        .text{
+            width: 100%;
+        }
+
+        .container{
+            justify-content: end;
+            position: relative;
+
+            h2{
+                position: absolute;
+                left: 30px;
+                bottom: 40px;
+            }
+        }
     }
 }
 
@@ -20,6 +208,203 @@
     {
         max-width: 768px;
     }
+
+    header{
+        img{
+            width: 400px;
+        }
+    }
+
+    .statistics{
+        .card{
+            text-align: center;
+        }
+    }
+
+    .prizes{
+        .prizes-list{
+            width: 100%;
+            text-align: center;
+
+            h3::before{
+                left: 50%;
+                margin-left: -100px
+            }
+
+            ul{
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    .stages{
+        min-height: fit-content;
+        padding-bottom: 50px;
+
+        .ladder{
+            margin-top: 0;
+
+            img{
+                display: none;
+            }
+
+            .mobile{
+                display: block;
+            }
+
+            .stage{
+                display: flex;
+                position: inherit;
+                width: auto;
+                flex-direction: column;
+                left: 0;
+                right: 0;
+                top: 0;
+                align-items: center;
+                text-align: center;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+
+                img{
+                    width: fit-content;
+                }
+            }
+        }
+    }
+
+    .diving{
+        .points{
+            .point{
+                margin-top: 30px;
+                margin-left: 0;
+            }
+        }
+    }
+
+    .participants{
+        .cards{
+            .card{
+                width: 45%;
+            }
+        }
+    }
+
+    .together{
+        h2{
+            font-size: 70px;
+        }
+    }
+
+    .region-agent{
+        .regions{
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding-left: 170px;
+
+            p{
+                font-size: 24px;
+                width: 150px;
+                margin: 5px;
+            }
+        }
+    }
+
+    .opportunities{
+        .brand{
+            img{
+                width: 500px;
+                height: fit-content;
+                margin-left: 112px;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding-right: 112px;
+                }
+
+                h2{
+                    padding-left: 0px;
+                }
+
+                p{
+                    padding-left: 20px;
+                }
+            }
+        }
+
+        .networking{
+            img{
+                margin-right: 0;
+                width: 600px;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding-left: 112px;
+                }
+
+                h2{
+                    padding-right: 20px;
+                    font-size: 34px;
+                }
+            }
+
+            .image{
+                .caption{
+                    padding-right: 112px;
+                }
+            }
+        }
+    }
+
+    .scaling{
+        .container{
+            flex-direction: column-reverse;
+        }
+
+        .image{
+            margin-right: auto;
+            width: 100%;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .caption{
+            width: 100%;
+        }
+
+        .left{
+            width: 100%;
+            padding-top: 20px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .deligate{
+        h2:before{
+            right: -127px;
+        }
+    }
+
+    .more{
+        .container{
+            h2{
+                position: absolute;
+                left: -70px;
+                bottom: 40px;
+            }
+        }
+    }
 }
 
 @media(max-width: 768px)
@@ -28,12 +413,531 @@
     {
         max-width: 576px;
     }
+
+    header{
+        img{
+            width: 200px;
+        }
+    }
+
+    .description{
+        h1{
+            font-size: 92px;
+        }
+    }
+
+    .diving{
+        h2{
+            font-size: 48px;
+        }
+    }
+
+    .why-playing{
+        h3, h2{
+            font-size: 80px;
+        }
+
+        .block:nth-child(odd){
+            width: 100%;
+        }
+    
+        .block:nth-child(even){
+            width: 100%;
+        }
+
+        .block{
+            text-align: center;
+        }
+    }
+
+    .participants{
+        .cards{
+            .card{
+                width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .opportunities{
+        .brand{
+            img{
+                width: 300px;
+                margin-left: 96px;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding-right: 96px;
+                }
+
+                h2{
+                    padding-left: 0px;
+                }
+
+                p{
+                    padding-left: 20px;
+                    font-size: 21px;
+                }
+            }
+        }
+
+        .networking{
+            img{
+                margin-right: 0;
+                width: 300px;
+                height: 200px;
+                object-fit: cover;
+                object-position: right;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding-left: 112px;
+                }
+
+                h2{
+                    padding-right: 0px;
+                    font-size: 34px;
+                }
+            }
+
+            .image{
+                .caption{
+                    padding-right: 112px;
+                }
+            }
+        }
+    }
+
+    .deligate{
+        h2:before{
+            width: 100%;
+            right: -57px;
+        }
+    }
+
+    .more{
+        .text{
+            padding-left: 0;
+            h3, h2{
+                text-align: center;
+            }
+        }
+
+        .container{
+
+            h2{
+                width: 300px;
+            }
+
+            .qr{
+                width: 60%;
+            }
+        }
+    }
 }
 
 @media(max-width: 576px)
 {
     .container
     {
-        max-width: 320px;
+        max-width: 100%;
+    }
+
+    header{
+        .container{
+            flex-direction: column;
+
+            .btn{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .description{
+        h2{
+            font-size: 21px;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 48px;
+            text-align: center;
+            line-height: 50px;
+
+            span{
+                font-size: 38px;
+            }
+        }
+
+        h1::before{
+            left: 50%;
+            margin-left: -100px;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .btn{
+            width: 100%;
+            font-size: 18px;
+            padding: 20px 50px;
+        }
+    }
+
+    .statistics{
+        h2{
+            font-size: 48px;
+        }
+
+        h4{
+            font-size: 21px;
+            width: 100%;
+        }
+
+        .cards{
+            width: 100%;
+        }
+
+        .card{
+            h3{
+                font-size: 52px;
+            }
+        }
+    }
+
+    .prizes{
+        h2{
+            font-size: 72px;
+        }
+
+        .main-prize{
+            h3{
+                font-size: 34px;
+            }
+        }
+    }
+
+    .stages{
+        h2{
+            font-size: 38px;
+        }
+
+        .descr{
+            text-align: center;
+        }
+
+        .ladder{
+            .stage{
+                h3{
+                    font-size: 24px;
+                }
+            }
+
+            .region-final{
+                p{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .diving{
+        padding-bottom: 20px;
+
+        h3{
+            font-size: 18px;
+        }
+
+        h2{
+            font-size: 24px;
+        }
+
+        .money{
+            font-size: 24px;
+        }
+
+        .descr{
+            text-align: center;
+
+            h3{
+                font-size: 24px;
+                width: 100%;
+            }
+
+            p{
+                width: 100%;
+            }
+        }
+
+        .points{
+            .point{
+                width: 300px;
+                padding-right: 15px;
+                padding-top: 0;
+                padding-bottom: 0;
+                background-size: 100%;
+                bottom: 0;
+                height: 100px;
+                background-size: 300px 100px;
+                margin: 0;
+
+                h3{
+                    font-size: 30px;
+                    width: 50px;
+                    height: 50px;
+                }
+
+                p{
+                    font-size: 13px;
+                    width: 200px;
+                    padding-left: 10px;
+                }
+            }
+
+            .point:nth-child(2){
+                margin: 0;
+            }
+    
+            .point:nth-child(3){
+                margin: 0;
+            }
+        }
+    }
+
+    .why-playing{
+        h2, h3{
+            font-size: 48px;
+        }
+    }
+
+    .participants{
+        h2{
+            font-size: 36px;
+            text-align: center;
+        }
+
+        h3{
+            width: 100%;
+            text-align: center;
+        }
+
+        .cards{
+            .card{
+                padding: 0;
+                margin-top: 40px;
+                text-align: center;
+            }
+        }
+    }
+
+    .together{
+        h2{
+            font-size: 48px;
+            text-align: center;
+        }
+
+        ul{
+            margin-top: 50px;
+        }
+    }
+
+    .region-agent{
+        h2{
+            font-size: 26px;
+        }
+
+        .stats{
+            flex-direction: column;
+
+            p{
+                width: 100%;
+                text-align: center;
+                margin-left: 0;
+            }
+        }
+
+        .regions{
+            min-height: 200px;
+            padding-left: 70px;
+
+            p{
+                font-size: 10px;
+                margin: 0;
+                width: 65px;
+            }
+        }
+    }
+
+    .opportunities{
+        .brand{
+            flex-direction: column;
+            img{
+                width: 100%;
+                margin: 0
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+        }
+
+        .networking{
+            flex-direction: column;
+            margin-top: 30px;
+
+            img{
+                width: 100%;
+                margin: 0;
+            }
+
+            .descr{
+                h2, h3, p{
+                    padding: 0;
+                    text-align: center;
+                }
+
+                h2{
+                    padding-right: 0px;
+                    font-size: 34px;
+                }
+            }
+
+            .image{
+                .caption{
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .scaling{
+        h2{
+            font-size: 26px;
+            text-align: center;
+        }
+
+        h3{
+            text-align: center;
+        }
+
+        p{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .income{
+        .descr{
+            width: 100%;
+
+            h3{
+                text-align: center;
+                width: 100%;
+            }
+    
+            h2{
+                font-size: 32px;
+                text-align: center;
+            }
+
+            p{
+                text-align: center;
+            }
+        }
+
+        .invest{
+            margin: 0;
+            margin-top: 20px;
+
+            p{
+                font-size: 24px;
+            }
+
+            h2{
+                font-size: 120px;
+                line-height: 100px;
+            }
+
+            div{
+                h3{
+                    font-size: 28px;
+                }
+
+                p{
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+
+    .deligate{
+        h2{
+            font-size: 24px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h2:before{
+            width: 100%;
+            height: 10px;
+            bottom: -60px;
+            right: 0;
+        }
+
+        ul{
+            li{
+                width: 100%;
+                font-size: 21px;
+            }
+        }
+    }
+
+    .more{
+        .text{
+            h3{
+                font-size: 21px;
+                padding: 0 5px;
+            }
+
+            h2{
+                font-size: 24px;
+            }
+        }
+
+        .container{
+            h2{
+                font-size: 24px;
+                width: 150px;
+                margin: 0;
+                left: 5px;
+                bottom: 60px;
+            }
+
+            img{
+                width: 100px;
+            }
+
+            .qr{
+                img{
+                    width: 100%;
+                }
+            }
+
+            a{
+                font-size: 12px;
+            }
+        }
     }
 }
